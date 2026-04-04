@@ -15,4 +15,4 @@ print(result)
 newtext="Diptendu Bandyopadhyay"
 pattern1=r"i"
 result1=re.sub(pattern1,"e",newtext)
-print(result1)
+print(result1) 
