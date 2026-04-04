@@ -8,3 +8,8 @@ title=str.title(myname)
 print("The name in title case is "+title)
 numberofcharacters=len(myname)
 print("The number of characters in the name is "+str(numberofcharacters))
+count=myname.find("i")
+if count!=-1:
+    print("The first occurrence of 'i' is at index "+str(count))
+else:
+    print("The character 'i' is not found in the name")
