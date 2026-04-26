@@ -9,11 +9,13 @@ def contains_digit(password):
     for i in  password:
         if i.isdigit():
             return True
+            break
     return False
 def contains_alphanum(password):
     for i in password:
         if i.isalnum():
             return True
+            break
     return False
 
 def isPasswordStrong(password):
